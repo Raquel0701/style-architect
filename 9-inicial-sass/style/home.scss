@@ -1,0 +1,47 @@
+
+@import 'variables';
+@import 'variables-home';
+
+
+body.home {
+  background-color: $home-background-color;
+  font-family: $font-family-base;
+  color: $home-text-color;
+  padding: $home-padding;
+
+  h1 {
+    color: $home-header-color;
+  }
+
+  p {
+    color: $text-color; 
+    margin-bottom: $spacing-unit;
+  }
+
+
+    /*ANIDACIÓN*/
+  .card {
+    background-color: $home-background-color;
+    padding: $home-padding;
+    border-radius: 8px;
+  
+    &:hover {
+      background-color: lighten($home-background-color, 50%);
+    }
+  
+    h2 {
+      color: $home-header-color;
+      margin-bottom: $spacing-unit; // Variable global
+  
+      &:hover {
+        color: darken($home-header-color, 15%);
+      }
+    }
+  
+    p {
+      color: $home-text-color;
+      font-size: 14px;
+      margin-bottom: $spacing-unit; // Variable global
+    }
+  }
+}

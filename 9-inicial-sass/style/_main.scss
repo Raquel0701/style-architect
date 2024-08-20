@@ -1,0 +1,9 @@
+// _main.scss
+
+$header-height: 100px;
+$footer-height: 50px;
+
+main {
+  padding-top: $header-height + 20px;
+  padding-bottom: $footer-height + 20px;
+}

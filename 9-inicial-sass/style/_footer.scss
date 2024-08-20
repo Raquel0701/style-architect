@@ -1,0 +1,23 @@
+// _footer.scss
+
+$footer-height: 50px;
+$footer-bg-color: #2ecc71;
+$text-color: #fff;
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: $footer-height;
+  background-color: $footer-bg-color;
+  color: $text-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  p {
+    font-size: 1rem;
+  }
+}

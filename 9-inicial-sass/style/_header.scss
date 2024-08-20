@@ -1,0 +1,23 @@
+// _header.scss
+
+$header-height: 100px;
+$header-bg-color: #3498db;
+$text-color: #fff;
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: $header-height;
+  background-color: $header-bg-color;
+  color: $text-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  h1 {
+    font-size: 2rem;
+  }
+}
