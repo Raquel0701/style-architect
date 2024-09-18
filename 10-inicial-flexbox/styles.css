@@ -1,137 +1,239 @@
-body{
-    text-align: center;
-    padding: 1em;
+body {
+  text-align: center;
+  padding: 1em;
+  --rosa: violet;
 }
 
 #layout {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: flex; 
-    width: a;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  width: a;
 }
 #layout2 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: inline-flex; 
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: inline-flex;
 }
 
 #layout3 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: inline-flex; 
-    flex-direction: row;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
 }
 #layout4 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: inline-flex; 
-    flex-direction: row-reverse;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row-reverse;
 }
 #layout5 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: inline-flex; 
-    flex-direction: column;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
 }
 #layout6 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: inline-flex; 
-    flex-direction: column-reverse;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column-reverse;
 }
 #layout7 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: flex; 
-    flex-wrap: wrap;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 #layout8 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: flex;
-    flex-flow: row wrap;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
 }
-h2{
-    text-align: left;
-}
-.caja2 {
-    flex-grow: 1;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-    border: 4px solid darkblue;
-    margin: 10px;
-    background-color: antiquewhite;
-    color: white;
-}
-.caja {
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-    border: 4px solid darkblue;
-    margin: 10px;
-    background-color: antiquewhite;
-    color: white;
+h2 {
+  text-align: left;
 }
 
-.red{
-    background-color: red;
+.caja3 {
+  flex-basis: 50%;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border: 4px solid darkblue;
+  margin: 10px;
+  background-color: antiquewhite;
+  color: white;
+}
+.caja2 {
+  flex-grow: 1;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border: 4px solid darkblue;
+  margin: 10px;
+  background-color: antiquewhite;
+  color: white;
+}
+.caja {
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border: 4px solid darkblue;
+  margin: 10px;
+  background-color: antiquewhite;
+  color: white;
+}
+
+.red {
+  background-color: red;
 }
 
 .green {
-    background-color: green;
+  background-color: green;
 }
 
-
 .blue {
-    background-color: blue;
+  background-color: blue;
 }
 
 .violet {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 
-.red{
-    background-color: red;
+.red {
+  background-color: red;
 }
 
-.redOrder{
-    order: 1;
-    background-color: red;
+.redOrder {
+  order: 1;
+  background-color: red;
 }
-.redGrow{
-    flex-grow: 5;
-    background-color: red;
+.redGrow {
+  flex-grow: 5;
+  background-color: red;
+}
+
+.redShrink {
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: red;
 }
 .greenOrder {
-    order: -1;
-    background-color: green;
+  order: -1;
+  background-color: green;
 }
 
 /* CLASE 2 */
 
 #layout9 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: inline-flex;
-    flex-flow: flex wrap;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: inline-flex;
+  flex-flow: flex wrap;
 }
 
 #layout10 {
-    border: 2px solid gray;
-    padding: 5px;
-    text-align: center;
-    display: flex;
-    flex-flow: row wrap;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
 }
 
+#layout11 {
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
 
+#layout12 {
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#layout13 {
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.red1 {
+  flex-basis: calc(100% / 3);
+  background-color: red;
+}
+
+.green1 {
+  background-color: green;
+}
+
+.blue1 {
+  background-color: blue;
+}
+
+.violet1 {
+  flex-basis: 100%;
+  background-color: var(--rosa);
+}
+
+#layout14 {
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+#layout15 {
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#layout16 {
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+#layout17 {
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.red2 {
+  background-color: red;
+}
+
+.green2 {
+  background-color: green;
+}
+
+.blue2 {
+  background-color: blue;
+}
+
+.violet2 {
+  background-color: var(--rosa);
+}

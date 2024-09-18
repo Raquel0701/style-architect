@@ -214,7 +214,7 @@
         
     </div> -->
 
-
+<!-- 
     <h2>5. Grow</h2>
     <pre>
         .caja2 {
@@ -246,6 +246,188 @@
         </div>
 
     </div>
+
+    <h2>5. Shrink</h2>
+    <small> REDUCIR EL TAMAÑO</small>
+    <pre>
+        .caja2 {
+            flex-grow: 1; //ocupa 1 el mismo expacio
+        }
+
+        .layout11{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .redShrink{
+            flex-grow: 0;
+            flex-shrink: 0;
+            background-color: red;
+        }
+    </pre>
+    <div id="layout11">
+        <div class="caja2 redShrink">
+            Primera Caja
+        </div>
+        <div class="caja2 green">
+            Segunda Caja
+        </div>
+        <div class="caja2 blue">
+            Tercera Caja
+        </div>
+        <div class="caja2 violet">
+            Cuarta Caja
+        </div>
+
+    </div> -->
+
+    <!-- <h2>5. Flex basis</h2>
+    <pre>
+        .caja3 {
+            flex-basis: 50%;
+          }
+
+      
+        .red1 {
+            flex-basis: calc(100% / 3);
+            background-color: red;
+          }
+
+          body {
+            text-align: center;
+            padding: 1em;
+            --rosa: violet;
+          }
+          .violet1 {
+            flex-basis: 100%;
+            background-color: var(--rosa);
+          }
+          
+    </pre>
+    <div id="layout12">
+        <div class="caja3 red1">
+            Primera Caja
+        </div>
+        <div class="caja3 green1">
+            Segunda Caja
+        </div>
+        <div class="caja3 blue1">
+            Tercera Caja
+        </div>
+        <div class="caja3 violet1">
+            Cuarta Caja
+        </div>
+
+    </div> 
+    <h2>5. Flex basis + flex grow</h2>
+    <div id="layout13">
+        <div class="caja2 red">
+            Primera Caja
+        </div>
+        <div class="caja2 green">
+            Segunda Caja
+        </div>
+        <div class="caja2 blue">
+            Tercera Caja
+        </div>
+        <div class="caja2 violet1">
+            Cuarta Caja
+        </div>
+
+    </div> -->
+
+    <h2>5. ALineación horizontal</h2>
+    <pre>
+       
+        #layout14 {
+            display: flex;
+            justify-content: flex-end;
+          }
+          
+    </pre>
+    <div id="layout14">
+        <div class="caja red2">
+            Primera Caja
+        </div>
+        <div class="caja green2">
+            Segunda Caja
+        </div>
+        <div class="caja blue2">
+            Tercera Caja
+        </div>
+        <div class="caja violet2">
+            Cuarta Caja
+        </div>
+
+    </div> 
+    <pre>
+       
+        #layout15 {
+            display: flex;
+            justify-content: center;
+          }
+          
+    </pre>
+    <div id="layout15">
+        <div class="caja red2">
+            Primera Caja
+        </div>
+        <div class="caja green2">
+            Segunda Caja
+        </div>
+        <div class="caja blue2">
+            Tercera Caja
+        </div>
+        <div class="caja violet2">
+            Cuarta Caja
+        </div>
+
+    </div> 
+    <pre>
+       
+        #layout16 {
+            display: flex;
+            justify-content: space-around;
+          }
+          
+    </pre>
+    <div id="layout16">
+        <div class="caja red2">
+            Primera Caja
+        </div>
+        <div class="caja green2">
+            Segunda Caja
+        </div>
+        <div class="caja blue2">
+            Tercera Caja
+        </div>
+        <div class="caja violet2">
+            Cuarta Caja
+        </div>
+
+    </div> 
+    <pre>
+       
+        #layout17 {
+            display: flex;
+            justify-content: space-between;
+          }
+          
+    </pre>
+    <div id="layout17">
+        <div class="caja red2">
+            Primera Caja
+        </div>
+        <div class="caja green2">
+            Segunda Caja
+        </div>
+        <div class="caja blue2">
+            Tercera Caja
+        </div>
+        <div class="caja violet2">
+            Cuarta Caja
+        </div>
+
+    </div> 
     <script src="script.js"></script>
 </body>
 
