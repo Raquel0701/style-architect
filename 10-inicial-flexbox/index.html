@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>FLEXBOX</h1>
+    <!-- <h2>1. display flex; inline-flex</h2>
+    <hr>
+    <pre>
+        display: flex;
+        width:100%
+    </pre>
+    <div id="layout">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+    </div>
+
+    <pre>display: inline-flex;</pre>
+    <div id="layout2">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+    </div>
+    <h2>2. Direcciones</h2>
+    <hr>
+    <pre> 
+        display: inline-flex; 
+        flex-direction: row; // DEFAULT
+    </pre>
+    <div id="layout3">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+    </div>
+    <pre> 
+        display: inline-flex; 
+        flex-direction: row-reverse;
+    </pre>
+    <div id="layout4">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+    </div>
+    <pre> 
+        display: inline-flex; 
+        flex-direction: column;
+    </pre>
+    <div id="layout5">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+    </div>
+    <pre> 
+        display: inline-flex; 
+        flex-direction: column;
+    </pre>
+    <div id="layout6">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+    </div>
+    <h2>3.  Envoltorio en Flex</h2>
+    <pre>
+        display: flex; 
+        flex-wrap: wrap;
+
+    </pre>
+    <hr>
+    <button onclick="addMoreDivs(5)">Añadir más cajas</button>
+    <div id="layout7">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+    </div>
+    <pre>
+        display: flex;
+        flex-flow: row wrap;
+        
+    </pre>
+    <hr>
+    <div id="layout8">
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+        <div class="caja red">
+            Primera Caja
+        </div>
+        <div class="caja green">
+            Segunda Caja
+        </div>
+        <div class="caja blue">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+    </div> -->
+
+    <!-- <h2>4.  Orden</h2>
+    <pre>
+       .redOrder{
+    order: 1;
+    background-color: red;
+    }
+    .greenOrder {
+        order: -1;
+        background-color: green;
+    }
+    </pre>
+    <div id="layout9">
+        <div class="caja redOrder">
+            Primera Caja
+        </div>
+        <div class="caja greenOrder">
+            Segunda Caja
+        </div>
+        <div class="caja blueOrder">
+            Tercera Caja
+        </div>
+        <div class="caja violet">
+            Cuarta Caja
+        </div>
+        
+    </div> -->
+
+
+    <h2>5. Grow</h2>
+    <pre>
+        .caja2 {
+            flex-grow: 1; //ocupa 1 el mismo expacio
+        }
+
+        .layout10{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .redGrow{
+            flex-grow: 5;
+            background-color: red;
+        }
+
+    </pre>
+    <div id="layout10">
+        <div class="caja2 redGrow">
+            Primera Caja
+        </div>
+        <div class="caja2 green">
+            Segunda Caja
+        </div>
+        <div class="caja2 blue">
+            Tercera Caja
+        </div>
+        <div class="caja2 violet">
+            Cuarta Caja
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
